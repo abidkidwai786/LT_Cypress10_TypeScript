@@ -10,13 +10,6 @@
          "versions": [
             "latest-1"
          ]
-      },
-      {
-         "browser": "Firefox",
-         "platform": "Windows 10",
-         "versions": [
-            "latest-1"
-         ]
       }
    ],
    "run_settings": {
@@ -28,7 +21,8 @@
       "network": false,
       "headless": false,
       "npm_dependencies": {
-         "cypress": "10.0.0"
+         "cypress": "10.0.0",
+         "typescript": "^5.0.4"
       }
    },
    "tunnel_settings": {
