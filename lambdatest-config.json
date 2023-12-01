@@ -1,8 +1,4 @@
 {
-   "lambdatest_auth": {
-      "username": "<Your LambdaTest username>",
-      "access_key": "<Your LambdaTest access key>"
-   },
    "browsers": [
       {
          "browser": "Chrome",
@@ -14,19 +10,19 @@
    ],
    "run_settings": {
       "reporter_config_file": "base_reporter_config.json",
-      "build_name": "Cypress 10",
+      "build_name": "Cypress KHAN 1",
       "parallels": 1,
-      "specs": "cypress/e2e/1-getting-started/todo.cy.js",
+      "specs": "cypress/e2e/2-advanced-examples/",
       "ignore_files": "",
       "network": false,
       "headless": false,
       "npm_dependencies": {
-         "cypress": "10.0.0",
-         "typescript": "^5.0.4"
+         "cypress": "13.3.2",
+         "typescript": "5.1.6"
       }
    },
    "tunnel_settings": {
       "tunnel": false,
-      "tunnel_name": null
+      "tunnel_name": "tunnel 1"
    }
 }
